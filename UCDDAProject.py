@@ -1,5 +1,4 @@
 import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -61,11 +60,13 @@ x=(list(redwine["alcohol"]))
 y=(list(redwine["pH"]))
 
 plt.plot(x, y)
+plt.show()
 
 #using a scatter plot instead with labelled axis
 plt.xlabel("Alcohol")
 plt.ylabel("pH")
 plt.scatter(x, y)
+plt.show()
 
 
 
